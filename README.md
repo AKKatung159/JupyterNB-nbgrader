@@ -1,44 +1,69 @@
-# Jupyter Notebook with nbgrader Docker Setup using Docker Compose
+# วิธีการติดตั้ง Jupyter Notebook และ NBGrader
 
-This repository provides a Docker Compose setup for running Jupyter Notebook with nbgrader installed.
+## ติดตั้งใน Windows & MacOS
 
-## Installation
+### Jupyter Notebook
+1. ดาวน์โหลดและติดตั้ง [Anaconda](https://www.anaconda.com/products/individual) (เลือกรุ่นที่เหมาะกับระบบปฏิบัติการของคุณ)
+   
+    ![download anaconda](./Picture/pic1.png)
 
-To set up the Jupyter Notebook environment with nbgrader using Docker Compose, follow the steps below:
+2. เปิด Anaconda Navigator
+   
+### NBGrader
+3. เลือก "Environments"
+   
+    ![choose Environments](./Picture/pic2.png)
 
-### Prerequisites
+4. เลือก "Not Installed" จากรายการด้านซ้าย ในช่องค้นหา, พิพม์ `nbgrader`
+   
+    ![search nbgrader](./Picture/pic3.png)
 
-- Docker and Docker Compose installed on your machine. If not installed, you can download and install Docker Desktop which includes Docker Compose from [Docker's official website](https://www.docker.com/products/docker-desktop).
+5. กดเลือก `nbgrader` และ คลิกที่ `Apply` เพื่อติดตั้ง
+   
+    ![apply](./Picture/pic4.png)
 
-### Steps
+    ![continue apply](./Picture/pic5.png)
 
-1. Clone this repository to your local machine:
+6. เลือก "Home" และคลิกที่ "Launch" ในส่วนของ Jupyter Notebook
+   
+    ![open Jupyter Notebook](./Picture/pic6.png)
 
+7. ลองเปิดไฟล์งานถ้ามีปุ่ม `validate` แสดงว่าลงสำเร็จ
+
+    ![finished](./Picture//pic7.png)
+
+---
+
+## ติดตั้งใน Docker Compose
+
+### การเตรียมพร้อม
+- ต้องมี Docker และ Docker Compose ติดตั้งในเครื่องของคุณ. หากยังไม่ได้ติดตั้ง, คุณสามารถดาวน์โหลดและติดตั้ง Docker Desktop ที่รวมถึง Docker Compose ได้จาก [เว็บไซต์อย่างเป็นทางการของ Docker](https://www.docker.com/products/docker-desktop).
+
+### ขั้นตอน
+
+1. คลอน repository นี้ไปยังเครื่อง local ของคุณ:
     ```bash
     git clone https://github.com/AKKatung159/JupyterNB-nbgrader.git
     ```
-
-    Navigate to the cloned repository:
-
+    เข้าไปใน directory ที่ clone:
     ```bash
     cd JupyterNB-nbgrader
     ```
 
-2. Build and run the Docker containers using Docker Compose:
-
+2. สร้างและรัน Docker containers โดยใช้ Docker Compose:
     ```bash
     docker-compose up -d --build
     ```
 
-3. Once the containers are up and running, open your web browser and navigate to:
-
+3. เมื่อ containers ทำงานแล้ว, เปิดเบราว์เซอร์ของคุณและไปที่:
     ```
     http://localhost:8888/
     ```
+    คุณควรเห็นหน้าตาของ Jupyter Notebook.
 
-    You should see the Jupyter Notebook interface.
-## Additional Information
-For more information on using nbgrader, refer to the [nbgrader documentation](https://nbgrader.readthedocs.io/en/stable/).
+## ข้อมูลเพิ่มเติม
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้ nbgrader, ดูที่ [เอกสาร nbgrader](https://nbgrader.readthedocs.io/en/stable/).
 
 ---
-### By. AK KATUNG
+### โดย. AK KATUNG
