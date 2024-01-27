@@ -5,32 +5,32 @@
 ### Jupyter Notebook
 1. Download and install [Anaconda](https://www.anaconda.com/products/individual) (Choose the version suitable for your operating system)
    
-    ![download anaconda](./Picture/pic1.png)
+    ![download anaconda](./Picture/pic1.webp)
 
 2. Open Anaconda Navigator
 
 ### NBGrader
 3. Select "Environments"
    
-    ![choose Environments](./Picture/pic2.png)
+    ![choose Environments](./Picture/pic2.webp)
 
 4. Choose "Not Installed" from the left-hand menu. In the search box, type `nbgrader`
    
-    ![search nbgrader](./Picture/pic3.png)
+    ![search nbgrader](./Picture/pic3.webp)
 
 5. Click on `nbgrader` and then click on `Apply` to install
    
-    ![apply](./Picture/pic4.png)
+    ![apply](./Picture/pic4.webp)
 
-    ![continue apply](./Picture/pic5.png)
+    ![continue apply](./Picture/pic5.webp)
 
 6. Select "Home" and click on "Launch" in the Jupyter Notebook section
    
-    ![open Jupyter Notebook](./Picture/pic6.png)
+    ![open Jupyter Notebook](./Picture/pic6.webp)
 
 7. Try opening a notebook, and if you see the `validate` button, it means the installation was successful.
 
-    ![finished](./Picture//pic7.png)
+    ![finished](./Picture//pic7.webp)
 
 ---
 

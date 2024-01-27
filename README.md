@@ -5,32 +5,32 @@
 ### Jupyter Notebook
 1. ดาวน์โหลดและติดตั้ง [Anaconda](https://www.anaconda.com/products/individual) (เลือกรุ่นที่เหมาะกับระบบปฏิบัติการของคุณ)
    
-    ![download anaconda](./Picture/pic1.png)
+    ![download anaconda](./Picture/pic1.webp)
 
 2. เปิด Anaconda Navigator
    
 ### NBGrader
 3. เลือก "Environments"
    
-    ![choose Environments](./Picture/pic2.png)
+    ![choose Environments](./Picture/pic2.webp)
 
 4. เลือก "Not Installed" จากรายการด้านซ้าย ในช่องค้นหา, พิพม์ `nbgrader`
    
-    ![search nbgrader](./Picture/pic3.png)
+    ![search nbgrader](./Picture/pic3.webp)
 
 5. กดเลือก `nbgrader` และ คลิกที่ `Apply` เพื่อติดตั้ง
    
-    ![apply](./Picture/pic4.png)
+    ![apply](./Picture/pic4.webp)
 
-    ![continue apply](./Picture/pic5.png)
+    ![continue apply](./Picture/pic5.webp)
 
 6. เลือก "Home" และคลิกที่ "Launch" ในส่วนของ Jupyter Notebook
    
-    ![open Jupyter Notebook](./Picture/pic6.png)
+    ![open Jupyter Notebook](./Picture/pic6.webp)
 
 7. ลองเปิดไฟล์งานถ้ามีปุ่ม `validate` แสดงว่าลงสำเร็จ
 
-    ![finished](./Picture//pic7.png)
+    ![finished](./Picture//pic7.webp)
 
 ---
 
