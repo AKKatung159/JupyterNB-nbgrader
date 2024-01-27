@@ -1,5 +1,5 @@
 # วิธีการติดตั้ง Jupyter Notebook และ NBGrader
-
+for English Instruction [english instruction version](https://github.com/AKKatung159/JupyterNB-nbgrader/blob/main/ReadmeEN.md)
 ## ติดตั้งใน Windows & MacOS
 
 ### Jupyter Notebook
